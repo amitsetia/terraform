@@ -14,20 +14,20 @@ module "test_instance" {
   instance_count          = 2
   instance_name           = "redisamit"
   gcp_machine_type        = "e2-standard-2"
-  gcp_project             = "viki-shared-network"
+  gcp_project             = "shared-network"
   gcp_region              = "us-central1"
-  subnetwork              = "viki-prod-central"
+  subnetwork              = "prod-central"
   gcp_image               = "ubuntu-1804-bionic-v20221018"
   instance_description    = "test"
   gcp_deletion_protection = "false"
-  network                 = "viki"
+  network                 = "network"
   external_ip             = "true"
   disk_storage_enabled    = "true"
   disk_type               = "pd-standard"
   disk_size_gb            = "20"
 
 
-  business    = "viki"
+  business    = "Bank"
   environment = "test"
   team        = "platform"
 
