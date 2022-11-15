@@ -1,7 +1,7 @@
 
 #terraform {
 #  backend "gcs" {
-#    bucket = "vikiterraform"
+#    bucket = "gcpterraform"
 #    prefix = "prod/redisamit"
 #  }
 #}
