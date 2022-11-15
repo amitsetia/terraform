@@ -5,7 +5,7 @@ variable "gcp_machine_type" {
 
 variable "gcp_project" {
   type        = string
-  default     = "viki-shared-network"
+  default     = "shared-network"
   description = "The GCP project ID (may be a alphanumeric slug) that the resources are deployed in. (Example: my-project-name)"
 }
 
