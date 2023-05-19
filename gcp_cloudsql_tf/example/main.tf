@@ -21,9 +21,9 @@ module "database_users" {
       permissions : ["SELECT"]
       tables : ["company"]
   }
-  
+ } 
+ 
   vault_secret_path      = var.vault_secret_path      // for storing password
   database               = var.database
   postgres_instance_name = var.instance               //fetch name by executing "gcloud sql instances list"
   project                = var.project                // Only two projects to select
-}
